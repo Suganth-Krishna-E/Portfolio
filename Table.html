@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title>Table</title>
+        <style>
+            .outer {
+                background-color: azure;
+                width: fit-content;
+            }
+            .outer h1 {
+                padding: 10px;
+                font-size: larger;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .outer h2 {
+                padding: 8px;
+                padding-bottom: 1px;
+                font-size: large;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            }
+            .typeing input{
+                width: 500px;
+                padding: 8px;
+                margin-top: 15px;
+                margin: 10px;
+                height:40px;
+                border-left: 5px rgb(64, 199, 64) solid;
+            }
+            .outer a {
+                margin-top: 30px;
+                padding: 10px 30px 10px 30px;
+                background-color: rgb(12, 234, 12);
+                color: white;
+                border-radius:10px 10px 10px 10px;
+                text-decoration: none;
+                font-size: large;
+                font-style:oblique;
+
+            }
+            .outer a:hover {
+                background-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <table border="3px solid" cellspacing="0px" cellpadding="5px">
+            <caption>Time Table</caption>
+            <tr align="center"><th colspan="3">Year 2023</th></tr>
+            <tr><th>Name</th><th>Mobile</th><th>Mail</th></tr>
+            <tr><td rowspan="3">PhoneNumber</td><td>8870040649</td><td>suganth.krishna2003@gmail.com</td></tr>
+            <tr><td>8870040649</td><td>suganth.krishna2003@gmail.com</td></tr>
+            <tr><td>8870040649</td><td>suganth.krishna2003@gmail.com</td></tr>
+            <tr><td>Age</td><td>21</td><td>78</td></tr>
+        </table>
+
+        <div class="outer">
+            <h1>Example</h1>
+            <h2>How to insert an image:</h2>
+
+            <div class="typeing">
+                <input type="text" value=' <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600"> '></input>
+            </div>
+            <a href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_image_test">Try it Yourself >></a>
+        </div>
+    </body>
+</html>
